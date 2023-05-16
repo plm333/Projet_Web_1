@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    BANNER-ENCHÈRES / COMPONENTS
+\*------------------------------------*/
+
+.banner-enchere {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://localhost/ProjetWeb1/assets/img/WEBP/stamp-hero5.webp); 
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 100px 100px;
+    align-items: center;
+}
+
+.banner-enchere .content {
+    margin-top: -80px;
+}
+
+.banner-enchere .content h2 {
+    font-size: 4em;
+    font-family: "lora";
+    font-weight: 100;
+    color: rgb(232,232,232);
+}
+
+.banner-enchere .content p {
+    font-size: 1.2em;
+    color: rgb(232,232,232);
+    margin-top: 10px;
+}

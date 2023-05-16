@@ -1,0 +1,38 @@
+/*------------------------------------*\
+        INFOLETTRE / COMPONENTS
+\*------------------------------------*/
+
+.infolettre .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../img/WEBP/stamp6.webp);
+}
+
+.infolettre .recherche {
+    position: relative;
+    width: 500px;
+    height: 40px;   
+}
+
+.infolettre .recherche input {
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(232,232,232);
+    outline: none;
+    padding: 5px 10px 0 18px;
+    margin-top: 20px;
+}
+
+.infolettre .recherche input::placeholder {
+    color: rgb(146,146,146);
+    font-size: 20px;
+}
+.infolettre .content span {
+    font-size: 4em;
+    font-weight: 600;
+    color: rgb(232,232,232);
+
+}

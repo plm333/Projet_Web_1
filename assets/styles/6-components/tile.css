@@ -1,0 +1,451 @@
+/*------------------------------------*\
+        TILES / COMPONENTS
+\*------------------------------------*/
+
+.tile__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile__background .tile__container {
+    justify-content: space-between;
+}
+
+.tile__background-enchere .tile__container {
+    justify-content: flex-end;
+}
+
+.tile__background-mes-encheres {
+    height: 750px;
+}
+
+@media only screen and (min-width: 550px) {
+    .tile__background  {
+        height: 585px;
+    }
+}
+
+.tile__background-categorie {
+    height: 350px;
+}
+
+.tile__background-actualite {
+    height: 790px;
+}
+
+.tile__background-enchere {
+    border-radius: 25px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 700px;
+}
+
+.tile__background-enchere-details {
+    border-radius: 25px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 960px;
+}
+
+.tile__lot {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.tile__line__red__tile {
+    border-bottom: .5px solid rgb(206, 30, 61);
+    padding-bottom: 30px;
+}
+
+.tile__enchere__red_line {
+    border-bottom: .5px solid rgb(206, 30, 61);
+    padding-bottom: 14px;
+}
+
+.img__background {
+    background-color: var(--white);
+}
+
+.tile:hover {
+    opacity: 0.9;
+
+}
+
+.tile-menu {
+    width: 100%;
+}
+
+.tile-menu:hover {
+    color: aqua;
+}
+
+.tile_img-wrapper-menu:hover {
+    color: aqua;
+}
+
+.tile h3 {
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 550px) {
+    .tile h3 {
+        font-size: 15px;
+    }
+}
+
+.tile p {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+    .tile p {
+        font-size: 15px;
+    }
+}
+
+.tile_img-wrapper-resto {
+    background-color: var(--light-gray);
+    /* border-radius: 35px; */
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+.tile_img-wrapper-menu {
+    background-color: var(--light-gray);
+    border-radius: 35px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+.tile_img-wrapper-comment-ca-marche {
+    background-color: var(--light-gray);
+    border-radius: 35px;
+    padding-bottom: 100%;
+    width: 100%;
+}
+
+.tile__title {
+    padding: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/**
+ *  tile / component
+ */
+
+.tile {
+    background-color: var(--xlight-gray);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tile__enchere {
+    background-color: var(--xlight-gray);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 65px;
+    margin: 30px 0px 500px 0px;
+}
+
+.tile__enchere-heart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tile+.tile {
+    margin-top: calc(var(--space-base) *4);
+}
+
+@media only screen and (min-width: 550px) {
+    .tile+.tile {
+        margin-top: 0;
+    }
+}
+
+.tile__img-wrapper {
+    background-color: var(--white);
+    border-radius: 25px;
+    height: 25vh;
+    /* min-height: 250px; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.tile__img-wrapper-categorie {
+    background-color: var(--white);
+    border-radius: 25px 25px 0 0;
+    height: 25vh;
+    min-height: 250px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+
+.tile__img {
+    object-fit: cover;
+    /* object-fit fonctionne juste si c'est en flex??? */
+    /* object-position pour repositionner */
+    transition: transform var(--transition-duration-normal)
+        /* conseil d'ergonomie google, 0.3s-0.4s pour la transition)*/
+        var(--transition-ease);
+    padding: 30px 30px 30px 30px;
+    width: auto;
+    height: auto;
+}
+
+.tile__img-categorie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    object-fit: cover;
+    /* object-fit fonctionne juste si c'est en flex??? */
+    /* object-position pour repositionner */
+    transition: transform var(--transition-duration-normal)
+        /* conseil d'ergonomie google, 0.3s-0.4s pour la transition)*/
+        var(--transition-ease);
+}
+
+.tile__img-enchere {
+    width: 85%;
+}
+
+.tile__img-enchere-thumbnail {
+    width: 10%;
+}
+
+.tile__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    padding: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .tile__text-wrapper {
+        padding: 2vw;
+    }
+}
+
+.tile__text-wrapper-categorie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.tile__text-categorie-centered {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 2px 0 black;
+    font-size: 35px;
+}
+
+.tile__text-wrapper h2 {
+    font-size: 1.3em;
+    font-family: "libre bodoni";
+}
+
+.tile__text-wrapper-actualite {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.tile__text-wrapper-actualite h2 {
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+.tile__text-wrapper-actualite p {
+    font-size: 17px;
+}
+
+.tile__text-wrapper-actualite h4 {
+    font-size: 12px;
+    margin-top: 20px;
+    min-width: 100px;
+}
+
+.tile__text-wrapper-enchere {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tile h2 {
+    min-height: 100px;
+    margin-top: -25px;
+}
+
+@media only screen and (min-width: 550px) {
+    .tile h2 {
+        min-height: 120px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tile h2 {
+        min-height: 120px;
+    }
+}
+
+.tile__text {
+    margin: 1.5vw 0;
+}
+
+.tile__mise-prix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tile__enchere_mise-minimum {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tile__enchere_mise-minimum input {
+    display: inline-block;
+    border: none;
+    background-color: var(--white);
+    color: rgb(19, 35, 82);
+    font-size: 15px;
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.tile__enchere_mise-minimum input:placeholder-shown {
+    text-align: center;
+}
+
+.tile__enchere_mise-minimum span {
+    color:rgb(19, 35, 82);
+}
+
+.tile__enchere-detail-mise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tile__enchere-detail-mise img {
+    width: 40px;
+}
+
+.tile__mise-prix .tile__mise {
+    font-size: 15px;
+}
+
+.tile__mise-prix .tile__prix {
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 550px) {
+    .tile__temps {
+        font-size: 13px;
+    }
+}
+
+.tile__mise-prix span {
+    font-size: 13px;
+    color: rgb(206, 30, 61);
+}
+
+.tile__btn {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+/* .tile__cta {
+    letter-spacing: 0.02em;
+    font-size: 1.1em;
+    line-height: 1;
+    margin-top: 80px;
+} */
+
+.tile__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.tile__link:hover .tile__img {
+    transform: scale(1.1);
+}
+
+.tile__link:hover .chevron--right::before {
+    transform: translateX(10px) rotate(45deg);
+    /*on doit réappliquer le rotate pour pas qu'il retourne à 0*/
+}
+
+.tile__catalogue-recherche-avancee {
+    margin-top: 59px;
+    margin-bottom: 20px;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.tile__catalogue-recherche-avancee select {
+    display: inline-block;
+    border: none;
+    background-color: var(--white);
+    color: rgb(19, 35, 82);
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.tile__catalogue-recherche-avancee input {
+    display: inline-block;
+    border: none;
+    background-color: var(--white);
+    color: rgb(19, 35, 82);
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.tile__catalogue-recherche-avancee span {
+    color: rgb(19, 35, 82);
+}
+
+.tile__catalogue-recherche-avancee h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    background-color: rgb(70,91,145);
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(232,232,232);
+}
+
+.tile__enchere-retour-catalogue {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.tile__enchere-retour-catalogue h4 {
+    font-size: 17px;
+}
+
+.tile__enchere-retour-catalogue h4 a:hover {
+    color: rgb(206, 30, 61);
+}

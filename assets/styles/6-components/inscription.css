@@ -1,0 +1,46 @@
+/*------------------------------------*\
+        INSCRIPTION / COMPONENTS
+\*------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input, select, option, textarea {
+    background-color: aliceblue;
+    border-radius: 25px;
+    border-color: rgb(70, 91, 145);
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+/* .inscription {
+    display: flex;
+    justify-content: center;
+} */
+
+.activerBtn:hover {
+    color: rgb(232,232,232);
+    background-color: rgb(70, 91, 145);
+    border-color: rgb(70, 91, 145);
+}
+
+.error {
+    color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.timbre__images{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,10 @@
+/*------------------------------------*\
+            ERROR / COMPONENTS
+\*------------------------------------*/
+
+.error {
+    color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}

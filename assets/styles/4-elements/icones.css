@@ -1,0 +1,52 @@
+/*------------------------------------*\
+            ICONES / ELEMENTS
+\*------------------------------------*/
+
+.icone-coeur {
+    margin-top: 20px;
+    margin-right: 20px;
+	width: 18px;
+}
+
+.icone-coeur:hover {
+    cursor: pointer;
+    color:rgb(206, 30, 61);
+    opacity: 0.5;
+}
+
+.icone-chevron-petit {
+	width: 15px;
+    margin-top: 6px;
+}
+.icone-chevron-petit:hover {
+    color:rgb(206, 30, 61);
+    opacity: 0.5;
+}
+
+.icone-chevron-petit-thumbnail {
+    width: 15px;
+} 
+
+.icone-chevron-petit-thumbnail:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icone-chevron-grand-thumbnail {
+    width: 15px;
+} 
+
+.icone-chevron-grand-thumbnail:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icone-chevron-grand {
+	width: 15px;
+    margin-top: 6px;
+}
+
+.icone-chevron-grand:hover {
+    color:rgb(206, 30, 61);
+    opacity: 0.5;
+}

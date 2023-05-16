@@ -1,0 +1,13 @@
+/*------------------------------------*\
+        VARIABLES / SETTINGS
+\*------------------------------------*/
+
+:root {
+    --black: #161616;
+    --white: #ffffff;
+    --xlight-gray: #f4f4f4;
+    --light-gray: Gainsboro;
+    --gray: Silver;
+
+    --space-base: 5px;
+}

@@ -1,0 +1,63 @@
+/*------------------------------------*\
+        NUMÉROTATION / ELEMENTS
+\*------------------------------------*/
+
+.numerotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.numerotation a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.numerotation span:hover {
+    color: rgb(206, 30, 61);
+}
+
+.numerotation__catalogue-haut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numerotation__catalogue-haut a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.numerotation__catalogue-haut a:last-child {
+    padding: 10px 0 10px 10px;
+}
+
+
+.numerotation__catalogue-haut span:hover {
+    color: rgb(206, 30, 61);
+}
+
+.numerotation__catalogue-bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.numerotation__catalogue-bas a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.numerotation__catalogue-bas a:last-child {
+    padding: 10px 0 10px 10px;
+}
+
+.numerotation__catalogue-bas span:hover {
+    color: rgb(206, 30, 61);
+    /* border: 0.5px solid rgb(206, 30, 61);
+    padding: 5px;
+    border-radius: 25px; */
+}

@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    BANNER-CATALOGUE / COMPONENTS
+\*------------------------------------*/
+
+.banner-catalogue {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../img/WEBP/stamp-hero2.webp);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 100px 100px;
+    align-items: center;
+}
+
+.banner-catalogue .content {
+    margin-top: -80px;
+}
+
+.banner-catalogue .content h2 {
+    font-size: 4em;
+    font-family: "lora";
+    font-weight: 100;
+    color: rgb(232,232,232);
+}
+
+.banner-catalogue .content p {
+    font-size: 1.2em;
+    color: rgb(232,232,232);
+    margin-top: 10px;
+}

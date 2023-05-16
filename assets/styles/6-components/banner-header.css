@@ -1,0 +1,57 @@
+/*------------------------------------*\
+        BANNER-HEADER / COMPONENTS
+\*------------------------------------*/
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../img/WEBP/stamp1.webp);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 100px 100px;
+    align-items: center;
+}
+
+.banner .content {
+    margin-top: -150px;
+    margin-left: 400px;
+}
+
+.banner .content h2 {
+    font-size: 4em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    color: rgb(232, 232, 232);
+}
+
+.banner .content span {
+    font-size: 6em;
+    font-weight: 600;
+    color: rgb(232, 232, 232);
+
+}
+
+.banner .content p {
+    font-size: 1.2em;
+    color: rgb(232, 232, 232);
+    margin-top: 20px;
+}
+
+.banner .content a {
+    display: inline-block;
+    background-color: rgb(70, 91, 145);
+    color: rgb(232, 232, 232);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+}
+
+.banner .content a:hover {
+    color: rgb(70, 91, 145);
+    background-color: rgb(232, 232, 232);
+    transition: all .6s ease;
+}

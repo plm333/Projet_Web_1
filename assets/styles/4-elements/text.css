@@ -1,0 +1,26 @@
+/*------------------------------------*\
+            TEXTS / ELEMENTS
+\*------------------------------------*/
+
+
+p {
+    font-family: var(--font-primary);
+    line-height: 1.4;
+}
+
+.categorie__text {
+    display: flex;
+}
+
+.enchere__details {
+    padding: 80px;
+}
+
+.enchere__details h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.enchere__details p {
+    margin-top: 20px;
+}

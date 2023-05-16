@@ -1,0 +1,150 @@
+/*------------------------------------*\
+            BUTTONS / COMPONENTS
+\*------------------------------------*/
+
+.btn-comment {
+    display: inline-block;
+    background-color: rgb(70, 91, 145);
+    color: rgb(232, 232, 232);
+    font-size: 15px;
+    padding: 8px 30px;
+    margin: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color .6s ease;
+}
+
+.btn-comment:hover {
+    color: rgb(70, 91, 145);
+    background-color: rgb(232, 232, 232);
+}
+
+.btn-miser {
+    display: inline-block;
+    background-color: rgb(70, 91, 145);
+    color: rgb(232, 232, 232);
+    font-size: 15px;
+    padding: 8px 70px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color .6s ease;
+}
+
+@media only screen and (min-width: 550px) {
+    .btn-miser {
+        padding: 8px 40px;
+    }
+}
+
+.btn-miser:hover {
+    color: rgb(70, 91, 145);
+    background-color: rgb(232, 232, 232);
+}
+
+.btn-rechercher {
+    display: inline-block;
+    background-color: rgb(70, 91, 145);
+    color: rgb(232, 232, 232);
+    font-size: 15px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color .6s ease;
+}
+
+.btn-rechercher:hover {
+    color: rgb(70, 91, 145);
+    background-color: rgb(232, 232, 232);
+}
+
+.btn {
+    display: inline-block;
+    letter-spacing: .04em;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+@media only screen and (min-width: 768px) {
+    .btn {
+        margin-top: 3vw;
+    }
+}
+
+.btn--primary {
+    padding: 25px 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .btn--primary {
+        padding: 2vw 4vw;
+    }
+}
+
+.btn--secondary {
+    padding: 15px 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .btn--secondary {
+        padding: 1.5vw 3vw;
+    }
+}
+
+.btn--hollow-black {
+    border: solid var(--black) 2px;
+    background-color: transparent;
+    transition: background-color var(--transition-duration-normal) var(--transition-ease),
+        color var(--transition-duration-normal) var(--transition-ease);
+}
+
+.btn--hollow-black:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+.btn--hollow-pink {
+    border: solid pink 2px;
+    color: white;
+    background-color: transparent;
+    transition: background-color var(--transition-duration-normal) var(--transition-ease),
+        color var(--transition-duration-normal) var(--transition-ease);
+}
+
+.btn--hollow-pink:hover {
+    background-color: pink;
+    color: var(--white);
+}
+
+.btn-supprimer {
+    display: inline-block;
+    background-color: rgb(206, 30, 61);
+    color: rgb(232, 232, 232);
+    font-size: 15px;
+    padding: 8px 70px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color .6s ease;
+}
+
+@media only screen and (min-width: 550px) {
+    .btn-supprimer {
+        padding: 8px 40px;
+    }
+}
+
+.btn-supprimer:hover {
+    color: rgb(206, 30, 61);
+    background-color: rgb(232, 232, 232);
+}

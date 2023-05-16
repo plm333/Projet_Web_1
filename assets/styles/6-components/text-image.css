@@ -1,0 +1,58 @@
+/*------------------------------------*\
+        TEXT-IMAGE / COMPONENTS
+\*------------------------------------*/
+
+.text-image {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 768px) {
+    .text-image:nth-child(odd) {
+        flex-direction: row;
+    }
+    .text-image:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}
+
+.text-image + .text-image {
+    display: flex;
+    margin-top: calc(var(--space-base) *6);
+}
+
+.text-image__image-wrapper,
+.text-image__text-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .text-image__image-wrapper,
+    .text-image__text-wrapper {
+        width: 50%;
+}
+}
+
+.text-image__text-wrapper {
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .text-image:nth-child(odd) .text-image__text-wrapper {
+        padding-right: calc(var(--space-base) * 2);
+    }
+
+
+    .text-image:nth-child(even) .text-image__text-wrapper {
+        padding-left: calc(var(--space-base) * 2);
+    }
+}
+
+.text-image__image {
+    object-fit: cover;
+}
+
+

@@ -1,0 +1,156 @@
+/*------------------------------------*\
+            HEADER / COMPONENTS
+\*------------------------------------*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 220px; */
+    background-color: rgb(70,91,145);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    z-index: 10;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    position: relative;
+	display: flex;
+    justify-content: center;
+	padding-top: 25px;
+	width: 270px;
+}
+
+header .nav__login {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+header .nav__login li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header .nav__login span {
+    color: rgb(232,232,232);
+}
+
+header .nav__login li a {
+    text-decoration: none;
+    color: rgb(232,232,232);
+    letter-spacing: 1px;
+}
+
+header .nav__login li a:hover {
+    opacity: 0.5;
+    transition: all .2s ease;
+}
+
+header .recherche {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 40px;   
+}
+
+header .recherche input {
+    position: absolute;
+    border-radius: 25px;
+    border: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(232,232,232);
+    outline: none;
+    padding: 5px 10px 0 18px;
+}
+
+header .recherche input::placeholder {
+    color: rgb(146,146,146);
+    font-size: 16px;
+}
+
+header .recherche img {
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%);
+    width: 32px;
+    right: -2px;
+    border-left: 1px solid rgb(146,146,146);
+    padding-left: 8px;
+}
+
+@media only screen and (min-width: 1160px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__logo {
+        display: flex;
+        justify-self: center;
+        width: 200px;
+    }
+    header .recherche {
+        position: relative;
+        width: 600px;
+        height: 40px;  
+    }
+    header .recherche input::placeholder {
+        font-size: 20px;
+    }
+    header .nav__login {
+        justify-content: flex-end;
+    }
+}
+
+.menu-burger {
+    width: 20px;
+    visibility: visible;
+    margin-left: 17px;
+}
+
+.menu-burger:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+    .menu-burger {
+        visibility: hidden;
+    }
+}
+
+.line__blue__profil {
+    border-top: 7px solid rgb(255, 217, 0);
+    margin-bottom: 1px;
+}
+
+.line__red__header {
+    border-top: 7px solid rgb(206, 30, 61);
+    margin-bottom: 1px;
+}
+
+.line__blue__header {
+    border-top: 30px solid rgb(70,91,145);
+}
+
+.username {
+    color:rgb(70,91,145);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.souligne {
+    text-decoration: underline;
+}

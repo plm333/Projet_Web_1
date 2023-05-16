@@ -1,0 +1,20 @@
+/*------------------------------------*\
+        BACKGROUNDS / OBJECTS
+\*------------------------------------*/
+
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-xlight-gray {
+    background-color: var(--xlight-gray);
+}
+
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-white + .bg-white { /* sert à si le même module se répète deux fois, pour éviter que le padding en y soit doublé*/
+    padding-top: 0;
+}

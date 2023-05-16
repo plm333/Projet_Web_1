@@ -1,0 +1,30 @@
+/*------------------------------------*\
+            IMAGES / ELEMENTS
+\*------------------------------------*/
+
+img {
+    width: 100%;
+}
+
+.img-magnifier-container {
+    position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper__tile__img-enchere-thumbnail img {
+    margin-left: 20px;
+}
+
+.wrapper__tile__img-enchere-thumbnail img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

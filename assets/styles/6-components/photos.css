@@ -1,0 +1,16 @@
+/*------------------------------------*\
+        PHOTOS / COMPONENTS
+\*------------------------------------*/
+
+.photo-comment {
+    background-image: url(../../img/WEBP/commentcamarche.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo-lord {
+    background-image: url(../../img/WEBP/lord.webp);
+    background-position: 25% 15%;
+    background-size: cover;
+
+}

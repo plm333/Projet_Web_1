@@ -1,0 +1,17 @@
+/*------------------------------------*\
+        TITLES / COMPONENTS
+\*------------------------------------*/
+
+
+.title--primary {
+    font-size: 40px;
+}
+
+.title--secondary {
+    font-size: max(30px, 3.5vw);
+    margin-bottom: 25px;
+}
+
+.title--thirdly {
+    font-size: 25px;
+}

@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    HERO-PHOTO-TEXT / COMPONENTS
+\*------------------------------------*/
+
+.hero__photo__text__content {
+    display: flex;
+}
+
+.hero__photo__text__img-wrapper {
+    width: 33.3%;
+}
+
+.comment__img-wrapper {
+    width: 50%;
+}
+
+.hero__photo__text__text-wrapper {
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+
+.hero__photo__text__text-wrapper h2 {
+    font-size: 45px;
+}
+.hero__photo__text__text-wrapper p {
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+    .hero__photo__text__text-wrapper p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .hero__photo__text__text-wrapper p {
+        font-size: 18px;
+    }
+}
+
+.hero__photo__text__img {
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    padding-bottom: 100%;
+    margin-bottom: 60px;
+}
+
+.hero__photo__text__content .text-white {
+    color: white;
+    text-shadow: 0 1px 0 black;
+}
